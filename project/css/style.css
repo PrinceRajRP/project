@@ -1,0 +1,41 @@
+body {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: antiquewhite;
+    padding: 5px;
+    text-align: center;
+}
+nav {
+  background-color: lightgray;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  margin-bottom: 25px;
+  display: flex;           /* Add this */
+  justify-content: space-around;  /* Add this - spreads items evenly */
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;           /* Add this */
+  gap: 150px;              /* Add spacing between items */
+  width: 100%;            /* Add this */
+}
+
+li {
+  list-style: none;
+  /* existing styles */
+}
+
+main {
+    background-color: beige;
+    font-size:medium;
+}
+
+footer {
+    background-color: antiquewhite;
+    text-align: center;
+}
